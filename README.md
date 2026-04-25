@@ -46,7 +46,7 @@
 
 ---
 
-## 程式介紹
+## 程式介紹（物件）
 
 專案共分成 5 個 .h/.cpp 檔案 + main.cpp。
 
@@ -79,16 +79,13 @@
 
 - `Map`：width、height、grid、enemies
 
-### Game.h / Game.cpp — 遊戲主控
+### Game.h / Game.cpp
 
 - 屬性：map、player、state、turnCount
 - GameState 三種狀態：
   - `RUNNING`：遊戲進行中
   - `WIN`：玩家帶著鑰匙抵達出口
   - `LOSE`：玩家 HP 歸零或主動離開
-
-### main.cpp
-
 ---
 
 ## UML 圖
